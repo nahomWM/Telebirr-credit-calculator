@@ -1,0 +1,62 @@
+{
+  "credits": [
+    {
+      "type": "Mela Daily",
+      "minLoan": 100,
+      "maxLoan": 2000,
+      "paymentPeriodDays": 1,
+      "facilitationFeePercent": 1,
+      "dailyFeePercent": 0,
+      "penaltyPercent": 2
+    },
+    {
+      "type": "Mela Weekly",
+      "minLoan": 100,
+      "maxLoan": 5000,
+      "paymentPeriodDays": 7,
+      "facilitationFeePercent": 1,
+      "dailyFeePercent": 0.35,
+      "dailyFeeMaxPercent": 1.2,
+      "penaltyPercent": 2
+    },
+    {
+      "type": "Mela Monthly",
+      "amounts": [
+        { "amount": 600, "facilitationFeePercent": 3, "dailyFeePercent": 0.8, "penaltyPercent": 0.11 },
+        { "amount": 800, "facilitationFeePercent": 3, "dailyFeePercent": 0.75, "penaltyPercent": 0.11 },
+        { "amount": 1400, "facilitationFeePercent": 3, "dailyFeePercent": 0.7, "penaltyPercent": 0.11 },
+        { "amount": 3000, "facilitationFeePercent": 3, "dailyFeePercent": 0.67, "penaltyPercent": 0.11 },
+        { "amount": 6000, "facilitationFeePercent": 3, "dailyFeePercent": 0.62, "penaltyPercent": 0.11 },
+        { "amount": 8000, "facilitationFeePercent": 3, "dailyFeePercent": 0.58, "penaltyPercent": 0.11 },
+        { "amount": 10000, "facilitationFeePercent": 3, "dailyFeePercent": 0.5, "penaltyPercent": 0.11 },
+        { "amount": 12000, "facilitationFeePercent": 3, "dailyFeePercent": 0.3, "penaltyPercent": 0.11 }
+      ]
+    },
+    {
+      "type": "50 Days Mela",
+      "amounts": [
+        { "amount": 3000, "facilitationFeePercent": 6, "dailyFeePercent": 0.7, "penaltyPercent": 0.11 },
+        { "amount": 5000, "facilitationFeePercent": 6, "dailyFeePercent": 0.66, "penaltyPercent": 0.11 },
+        { "amount": 7000, "facilitationFeePercent": 6, "dailyFeePercent": 0.62, "penaltyPercent": 0.11 },
+        { "amount": 9000, "facilitationFeePercent": 6, "dailyFeePercent": 0.59, "penaltyPercent": 0.11 },
+        { "amount": 11000, "facilitationFeePercent": 6, "dailyFeePercent": 0.56, "penaltyPercent": 0.11 },
+        { "amount": 13000, "facilitationFeePercent": 6, "dailyFeePercent": 0.53, "penaltyPercent": 0.11 },
+        { "amount": 15000, "facilitationFeePercent": 6, "dailyFeePercent": 0.5, "penaltyPercent": 0.11 },
+        { "amount": 18000, "facilitationFeePercent": 6, "dailyFeePercent": 0.5, "penaltyPercent": 0.11 }
+      ]
+    },
+    {
+      "type": "Endekise",
+      "amounts": [
+        { "amount": 200, "facilitationFeePercent": 1.1, "dailyFeePercent": 0.11, "penaltyPercent": 0.11 },
+        { "amount": 400, "facilitationFeePercent": 1.1, "dailyFeePercent": 0.1, "penaltyPercent": 0.11 },
+        { "amount": 600, "facilitationFeePercent": 1.1, "dailyFeePercent": 0.95, "penaltyPercent": 0.11 },
+        { "amount": 1100, "facilitationFeePercent": 1.1, "dailyFeePercent": 0.85, "penaltyPercent": 0.11 },
+        { "amount": 2000, "facilitationFeePercent": 2.5, "dailyFeePercent": 0.8, "penaltyPercent": 0.11 },
+        { "amount": 2200, "facilitationFeePercent": 2.5, "dailyFeePercent": 0.75, "penaltyPercent": 0.11 },
+        { "amount": 2500, "facilitationFeePercent": 2.5, "dailyFeePercent": 0.7, "penaltyPercent": 0.11 },
+        { "amount": 3500, "facilitationFeePercent": 2.5, "dailyFeePercent": 0.3, "penaltyPercent": 0.11 }
+      ]
+    }
+  ]
+}
