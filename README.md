@@ -1,6 +1,8 @@
 # Telebirr Credit Calculator
-
 A web application for calculating and managing Telebirr credit transactions with detailed statistics and reporting.
+
+All information is sourced from [ethiotelecom.et/mela-micro-credit](https://www.ethiotelecom.et/mela-micro-credit) and this website is not affiliated with Ethio telecom.
+This calculator reflects assumptions based on the referenced documentation and may not be fully accurate.
 
 ## Features
 
